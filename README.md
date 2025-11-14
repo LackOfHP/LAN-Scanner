@@ -20,8 +20,11 @@ sudo apt install tcpdump arp-scan iputils-ping
 Running Locally
 ---------------
 git clone https://github.com/LackOfHP/mini-sniffer.git
+
 cd mini-sniffer
+
 chmod +x mini_sniffer.sh
+
 sudo ./mini_sniffer.sh
 
 What Mini Sniffer Does
