@@ -37,7 +37,9 @@ What Mini Sniffer Does
 Optional: Install as Global Command
 -----------------------------------
 sudo cp LAN-scanner.sh /usr/local/bin/LAN-scanner
+
 sudo chmod +x /usr/local/bin/LAN-scanner
+
 sudo LAN-scanner
 
 License
