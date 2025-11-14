@@ -1,4 +1,4 @@
-README - Mini Sniffer
+README - LAN-Scanner
 
 Mini Sniffer — Lightweight Network Scanner & Packet Sniffer (Bash)
 
@@ -7,10 +7,10 @@ A simple, portable, and dependency-light local network scanner and packet sniffe
 Run Instantly (No Installation)
 --------------------------------
 Using curl:
-curl -s https://raw.githubusercontent.com/LackOfHP/LAN-Scanner/refs/heads/main/mini_sniffer.sh | bash
+curl -s https://raw.githubusercontent.com/LackOfHP/LAN-Scanner/refs/heads/main/LAN-scanner.sh | bash
 
 Using wget:
-wget -qO- https://raw.githubusercontent.com/LackOfHP/LAN-Scanner/refs/heads/main/mini_sniffer.sh | bash
+wget -qO- https://raw.githubusercontent.com/LackOfHP/LAN-Scanner/refs/heads/main/LAN-scanner.sh | bash
 
 Requirements
 ------------
@@ -19,13 +19,13 @@ sudo apt install tcpdump arp-scan iputils-ping
 
 Running Locally
 ---------------
-git clone https://github.com/LackOfHP/mini-sniffer.git
+git clone https://github.com/LackOfHP/LAN-scanner.git
 
-cd mini-sniffer
+cd LAN-scanner
 
-chmod +x mini_sniffer.sh
+chmod +x LAN-scanner.sh
 
-sudo ./mini_sniffer.sh
+sudo ./LAN-scanner.sh
 
 What Mini Sniffer Does
 ----------------------
@@ -36,9 +36,9 @@ What Mini Sniffer Does
 
 Optional: Install as Global Command
 -----------------------------------
-sudo cp mini_sniffer.sh /usr/local/bin/mini-sniffer
-sudo chmod +x /usr/local/bin/mini-sniffer
-sudo mini-sniffer
+sudo cp LAN-scanner.sh /usr/local/bin/LAN-scanner
+sudo chmod +x /usr/local/bin/LAN-scanner
+sudo LAN-scanner
 
 License
 -------
