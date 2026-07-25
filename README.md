@@ -47,6 +47,6 @@ License
 MIT License — free to modify and use.
 
 Author
-------
-Your Name
+-----
+LackOfHP
 GitHub: https://github.com/LackofHP
